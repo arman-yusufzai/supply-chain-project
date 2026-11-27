@@ -1,0 +1,11 @@
+[project]
+name = "supply-chain-project"
+version = "0.1.0"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "joblib",
+]
