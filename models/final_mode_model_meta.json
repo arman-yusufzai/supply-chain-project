@@ -1,0 +1,8 @@
+{
+  "features": [
+    "Shipping Mode"
+  ],
+  "trained_on_rows": 138213,
+  "sklearn": "1.8.0",
+  "target": "Late_delivery_risk"
+}

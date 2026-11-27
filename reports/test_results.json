@@ -1,0 +1,70 @@
+{
+  "final": {
+    "estimate": {
+      "roc_auc": 0.7445,
+      "log_loss": 0.5332,
+      "brier": 0.1863
+    },
+    "ci_low": {
+      "roc_auc": 0.737,
+      "log_loss": 0.526,
+      "brier": 0.1834
+    },
+    "ci_high": {
+      "roc_auc": 0.7518,
+      "log_loss": 0.5402,
+      "brier": 0.1893
+    }
+  },
+  "challenger": {
+    "estimate": {
+      "roc_auc": 0.7378,
+      "log_loss": 0.5372,
+      "brier": 0.188
+    },
+    "ci_low": {
+      "roc_auc": 0.7283,
+      "log_loss": 0.5303,
+      "brier": 0.1853
+    },
+    "ci_high": {
+      "roc_auc": 0.747,
+      "log_loss": 0.5439,
+      "brier": 0.191
+    }
+  },
+  "calibration": {
+    "orders": {
+      "First Class": 5296,
+      "Same Day": 1805,
+      "Second Class": 6662,
+      "Standard Class": 20789
+    },
+    "predicted": {
+      "First Class": 0.9997,
+      "Same Day": 0.4816,
+      "Second Class": 0.7947,
+      "Standard Class": 0.3982
+    },
+    "observed": {
+      "First Class": 1.0,
+      "Same Day": 0.4709,
+      "Second Class": 0.8131,
+      "Standard Class": 0.396
+    }
+  },
+  "policies": {
+    "share_flagged": {
+      "flag First+Second (threshold 0.5)": 0.3461,
+      "flag First+Second+Same Day (threshold 0.4)": 0.3983
+    },
+    "recall": {
+      "flag First+Second (threshold 0.5)": 0.5412,
+      "flag First+Second+Same Day (threshold 0.4)": 0.5841
+    },
+    "precision": {
+      "flag First+Second (threshold 0.5)": 0.8959,
+      "flag First+Second+Same Day (threshold 0.4)": 0.8402
+    }
+  }
+}
